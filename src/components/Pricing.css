@@ -1,0 +1,90 @@
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.price-card {
+  border: 1px solid #2A3640;
+  border-radius: 3px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  background: #19222A;
+}
+
+.price-card.featured {
+  border-color: #FF6A2B;
+  position: relative;
+}
+
+.price-card.featured::before {
+  content: "MOST BOOKED";
+  position: absolute;
+  top: -11px;
+  left: 28px;
+  background: #FF6A2B;
+  color: #2A1206;
+  font-size: 10.5px;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.price-camp {
+  font-size: 12px;
+  color: #6FD3C7;
+  text-transform: uppercase;
+}
+
+.price-card h3 {
+  font-size: 24px;
+  margin: 10px 0 6px;
+}
+
+.price-elev {
+  font-size: 13px;
+  color: #8FA0A8;
+  margin-bottom: 20px;
+}
+
+.price-amount {
+  font-size: 34px;
+  margin-bottom: 4px;
+}
+
+.price-amount span {
+  font-size: 14px;
+  color: #8FA0A8;
+  font-weight: 400;
+}
+
+.price-note {
+  font-size: 13px;
+  color: #8FA0A8;
+  margin-bottom: 26px;
+}
+
+.price-features {
+  list-style: none;
+  margin: 0 0 28px;
+  flex-grow: 1;
+}
+
+.price-features li {
+  padding: 9px 0;
+  border-top: 1px solid #223039;
+  font-size: 14px;
+}
+
+.price-features li:first-child {
+  border-top: none;
+}
+
+.price-cta {
+  text-align: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .pricing-grid { grid-template-columns: repeat(3, 1fr); }
+}

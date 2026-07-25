@@ -1,0 +1,33 @@
+.site-footer {
+  padding: 40px 0 32px;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 13px;
+  color: #8FA0A8;
+}
+
+.footer-inner a {
+  color: #6FD3C7;
+}
+
+.footer-inner a:hover {
+  text-decoration: underline;
+}
+
+.footer-credit {
+  font-size: 12px;
+  padding-top: 18px;
+  border-top: 1px solid #223039;
+}
+
+@media (min-width: 768px) {
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

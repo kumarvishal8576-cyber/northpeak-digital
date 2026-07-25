@@ -1,0 +1,48 @@
+.results-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+
+.result-tile {
+  border: 1px solid #2A3640;
+  padding: 26px 22px;
+  border-radius: 3px;
+}
+
+.result-tile .num {
+  font-size: clamp(28px, 5vw, 40px);
+  color: #FF6A2B;
+  display: block;
+}
+
+.result-tile .lbl {
+  color: #8FA0A8;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.testimonial {
+  background: #19222A;
+  border: 1px solid #223039;
+  border-radius: 3px;
+  padding: 28px;
+}
+
+.testimonial blockquote {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .results-top { grid-template-columns: repeat(4, 1fr); }
+  .testimonials { grid-template-columns: repeat(3, 1fr); }
+}
