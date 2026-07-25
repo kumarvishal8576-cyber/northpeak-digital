@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Results from './components/Results';
 import Pricing from './components/Pricing';
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/Contactform';
 import Footer from './components/Footer';
 
 function App() {
