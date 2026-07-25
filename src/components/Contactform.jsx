@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ContactForm.css';
+import './Contactform.css';
 
 const validators = {
   name: (v) => v.trim().length > 1,
