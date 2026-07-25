@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div className="wrap footer-credit">
         Built for <a href="https://digitalheroesco.com" target="_blank" rel="noopener noreferrer">Digital Heroes Training Task</a>
-        {' '}· Live URL: <span>add your deployed URL here before submitting</span>
+        {' '}· Live URL: <a href="https://northpeakdogital.netlify.app" target="_blank" rel="noopener noreferrer">northpeakdogital.netlify.app</a>
       </div>
     </footer>
   );
